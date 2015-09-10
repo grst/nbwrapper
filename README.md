@@ -4,7 +4,7 @@ toolbox to run ipython notebooks as command line script with parameters
 When working on bioinformatics projects, I often start off trying out stuff in a ipython notebook.
 I usually end up having a whole data-processing pipeline in the notebook. To run this pipeline on a cluster or on different datasets, it would be nice to have it as a command line script with input parameters. 
 
-Based on [[runipy]] this toolbox helps building such command line wrapper scripts. 
+Based on [runipy](https://github.com/paulgb/runipy) this toolbox helps building such command line wrapper scripts. 
 
 ## Build the wrapper script
 Use e.g. `argparse` to parse the command line arguments, use `nbwrapper` to run the notebook. 
