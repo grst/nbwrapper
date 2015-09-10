@@ -8,4 +8,8 @@ setup(name='nbwrapper',
       author='Gregor Sturm',
       author_email='mail@gregor-sturm.de',
       py_modules=['nbwrapper'],
+      url='https://github.com/grst/nbwrapper',
+      install_requires=[
+          'runipy'
+      ],
      )
