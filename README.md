@@ -6,6 +6,10 @@ I usually end up having a whole data-processing pipeline in the notebook. To run
 
 Based on [runipy](https://github.com/paulgb/runipy) this toolbox helps building such command line wrapper scripts. 
 
+## Installation
+Simply `pip install nbwrapper`. 
+`python setup.py install` also works. 
+
 ## Build the wrapper script
 Use e.g. `argparse` to parse the command line arguments, use `nbwrapper` to run the notebook. 
 
