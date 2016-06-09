@@ -37,7 +37,7 @@ test.ipynb
 ```python
 # IN[0]:
     from nbwrapper import getargs
-    args = getarts()
+    args = getargs()
     print(args)
 ```
 
